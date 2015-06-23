@@ -7,6 +7,7 @@
 @import url(http://fonts.googleapis.com/css?family=Pacifico);
 @import url(http://fonts.googleapis.com/css?family=Montserrat);
 @import url(http://fonts.googleapis.com/css?family=Signika);
+@import url(http://fonts.googleapis.com/css?family=Roboto+Slab:400,700);
 
 html, body {
     margin: 0;
@@ -40,7 +41,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eeeeee', end
 }
 
 #header-text {
-   font-family: 'Pacifico', cursive;
+   font-family: 'Roboto Slab', serif;
    font-size:220%;
    margin-left:3cm;
 }
