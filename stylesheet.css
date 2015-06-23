@@ -33,6 +33,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#258dc8', end
    border-bottom-width:1px;
    border-bottom-style:dotted;
    border-bottom-color: #848484;
+   margin-bottom:5px;
 }
 
 #header-text {
