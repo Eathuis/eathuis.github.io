@@ -1,0 +1,11 @@
+@import url(http://fonts.googleapis.com/css?family=Anton);
+@import url(http://fonts.googleapis.com/css?family=Karla);
+#player{
+				opacity:0;
+				filter: alpha(opacity=0);
+			}
+#unicorn{
+     left: 315px;
+     position: absolute;
+     top: 143px;
+}
