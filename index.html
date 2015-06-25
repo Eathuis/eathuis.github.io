@@ -1,9 +1,43 @@
 <style>
   @import url(http://fonts.googleapis.com/css?family=Oswald);
+  .blink_me {
+    -webkit-animation-name: blinker;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+    
+    -moz-animation-name: blinker;
+    -moz-animation-duration: 1s;
+    -moz-animation-timing-function: linear;
+    -moz-animation-iteration-count: infinite;
+    
+    animation-name: blinker;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+@-moz-keyframes blinker {  
+    0% { opacity: 1.0; }
+    50% { opacity: 0.0; }
+    100% { opacity: 1.0; }
+}
+
+@-webkit-keyframes blinker {  
+    0% { opacity: 1.0; }
+    50% { opacity: 0.0; }
+    100% { opacity: 1.0; }
+}
+
+@keyframes blinker {  
+    0% { opacity: 1.0; }
+    50% { opacity: 0.0; }
+    100% { opacity: 1.0; }
+}
 </style>
 
  <marquee direction="down" width="100%" height="100%" behavior="alternate" >
   <marquee behavior="alternate">
-   <span style="font-family: 'Oswald', sans-serif;font-size:150%;">Jish is Awesome</span>
+   <span class="blink_me" style="font-family: 'Oswald', sans-serif;font-size:150%;">Jish is Awesome</span>
   </marquee>
 </marquee>
