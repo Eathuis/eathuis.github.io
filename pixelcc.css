@@ -59,3 +59,4 @@ h3.forumuse {float:left; position:absolute;}
 #footerinfo {bottom:0;width:100%;background-color:#0C2F48;color:white;padding:20px;border-top: solid 7px #151515;border-bottom: solid 4px #151515;}
 #footerinfo a{color:white;}
 #footerinfo a:hover{color:000;}
+.alternate { marquee-style: alternate; }
