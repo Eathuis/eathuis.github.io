@@ -65,6 +65,7 @@ h3.forumuse {float:left; position:absolute;}
 	background-color:#0C2F48;
 	color:white;
 	float:left;
+	height: 150px;
 	border-radius:10px;
 	padding:5px;
 }
