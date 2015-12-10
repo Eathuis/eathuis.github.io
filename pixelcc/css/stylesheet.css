@@ -18,7 +18,7 @@ div.content td {font-family: 'Roboto', sans-serif;}
 div.content hr { border: 0; height: 0; border-top: 1px solid rgba(0, 0, 0, 0.1); border-bottom: 1px solid rgba(255, 255, 255, 0.3);}
 div.content p {font-family: 'Montserrat', sans-serif;}
 div.img {position:absolute; left: 300px;}
-#header{ background: url("//eathuis.github.io/pixelcc/images/cheesecake_name.png"); background-size: 400px 200px; background-repeat: no-repeat; background-position: center; position:relative; top:0; height:200px; width:100%; background-color:white;}
+#header{ background: url("//eathuis.github.io/pixelcc/images/cheesecake_name.png"); background-size: 400px 200px; background-repeat: no-repeat; background-position: center; position:relative; top:0; height:250px; width:100%; background-color:white;}
 #header img {height:198px; width:60%;}
 body {width:100%; background-image: url(""); background: rgb(41,137,216); /* Old browsers */
 /* IE9 SVG, needs conditional override of 'filter' to 'none' */
