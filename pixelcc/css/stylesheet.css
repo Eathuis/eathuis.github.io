@@ -10,7 +10,7 @@
 @import url(http://fonts.googleapis.com/css?family=Gloria+Hallelujah);
 @import url(http://fonts.googleapis.com/css?family=Roboto);
 @import url(http://fonts.googleapis.com/css?family=Pacifico);
-#headerfiller {top:0;width:100%;z-index:-999;height:25px;background-color:#0C2F48;color:white;font-family: 'Pacifico', cursive;font-size:15px;}
+#headerfiller {text-transform:uppercase;top:0;width:100%;z-index:-999;height:25px;background-color:#0C2F48;color:white;font-family: verdana;font-size:15px;}
 #headerfiller a {color:red;text-decoration:none;}
 #headerfiller a:hover {text-decoration:underline;}
 #headerfiller p { text-align: left;
