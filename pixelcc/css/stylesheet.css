@@ -62,13 +62,9 @@ h3.forumuse {float:left; position:absolute;}
 #footerinfo a:hover{color:000;}
 
 #tweet {
-	margin-top:auto;
-	margin-bottom:auto;
 	color:black;
 	float:left;
-	width:20px;
-	height: 150px;
-	padding:5px;
+	padding:50px;
 }
 
 .marquee {
