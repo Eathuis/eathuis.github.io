@@ -25,7 +25,22 @@ __________.__              .__  _________ .__                                   
    <script src="//ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
    <script src="http://code.jquery.com/jquery-latest.min.js"></script>
    <script src="jquery.slides.min.js"></script>
+<script>
+    function sticky_relocate() {
+    var window_top = $(window).scrollTop();
+    var div_top = $('#sticky-anchor').offset().top;
+    if (window_top > div_top) {
+        $('#sticky').addClass('stick');
+    } else {
+        $('#sticky').removeClass('stick');
+    }
+}
 
+$(function () {
+    $(window).scroll(sticky_relocate);
+    sticky_relocate();
+});
+</script>
 <style>
 @import url(http://fonts.googleapis.com/css?family=Mountains+of+Christmas);
 #slides {display:none;}
