@@ -5,6 +5,41 @@
  * Licensed under Creative Commons (//creativecommons.org)
  * Email: pixelcheesecake@gmail.com
  */
+ 
+ @keyframes left-one {
+    0%  {
+        transform:translateX(100%);
+    }
+    10% {
+        transform:translateX(0);
+    }
+    40% {
+        transform:translateX(0);
+    }
+    50% {
+        transform:translateX(-100%);
+    }
+    100%{
+        transform:translateX(-100%);
+    }
+}
+@keyframes left-two {
+    0% {
+        transform:translateX(100%);
+    }
+    50% {
+        transform:translateX(100%);
+    }
+    60% {
+        transform:translateX(0);        
+    }
+    90% {
+        transform:translateX(0);        
+    }
+    100%{
+        transform:translateX(-100%);
+    }
+}
 
 @import url(http://fonts.googleapis.com/css?family=Montserrat);
 @import url(http://fonts.googleapis.com/css?family=Gloria+Hallelujah);
@@ -60,4 +95,28 @@ h3.forumuse {float:left; position:absolute;}
 #footerinfo {bottom:0;width:100%;background-color:#0C2F48;color:white;padding:20px;border-top: solid 7px #151515;border-bottom: solid 4px #151515;}
 #footerinfo a{color:white;}
 #footerinfo a:hover{color:000;}
-.alternate { marquee-style: alternate; }
+
+.marquee {
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+    position: relative;
+}
+
+.marquee p {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    text-align: center;
+    color: #fff;
+  text-shadow: 1px 1px 0px #000000;
+  filter: dropshadow(color=#000000, offx=1, offy=1);
+}
+
+.marquee p:nth-child(1) {
+    animation: left-one 20s ease infinite;
+}
+.marquee p:nth-child(2) {
+    animation: left-two 20s ease infinite;
+}
