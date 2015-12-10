@@ -6,41 +6,6 @@
  * Email: pixelcheesecake@gmail.com
  */
  
- @keyframes left-one {
-    0%  {
-        transform:translateX(100%);
-    }
-    10% {
-        transform:translateX(0);
-    }
-    40% {
-        transform:translateX(0);
-    }
-    50% {
-        transform:translateX(-100%);
-    }
-    100%{
-        transform:translateX(-100%);
-    }
-}
-@keyframes left-two {
-    0% {
-        transform:translateX(100%);
-    }
-    50% {
-        transform:translateX(100%);
-    }
-    60% {
-        transform:translateX(0);        
-    }
-    90% {
-        transform:translateX(0);        
-    }
-    100%{
-        transform:translateX(-100%);
-    }
-}
-
 @import url(http://fonts.googleapis.com/css?family=Montserrat);
 @import url(http://fonts.googleapis.com/css?family=Gloria+Hallelujah);
 @import url(http://fonts.googleapis.com/css?family=Roboto);
@@ -109,6 +74,9 @@ h3.forumuse {float:left; position:absolute;}
     color: #fff;
   text-shadow: 1px 1px 0px #000000;
   filter: dropshadow(color=#000000, offx=1, offy=1);
+  transform:translateX(100%);
+	-moz-transform:translateX(100%);
+	-webkit-transform:translateX(100%);
 }
 
 .marquee p:nth-child(1) {
@@ -116,4 +84,41 @@ h3.forumuse {float:left; position:absolute;}
 }
 .marquee p:nth-child(2) {
     animation: left-two 20s ease infinite;
+}
+
+/* Key Frames */
+
+ @keyframes left-one {
+    0%  {
+        transform:translateX(100%);
+    }
+    10% {
+        transform:translateX(0);
+    }
+    40% {
+        transform:translateX(0);
+    }
+    50% {
+        transform:translateX(-100%);
+    }
+    100%{
+        transform:translateX(-100%);
+    }
+}
+@keyframes left-two {
+    0% {
+        transform:translateX(100%);
+    }
+    50% {
+        transform:translateX(100%);
+    }
+    60% {
+        transform:translateX(0);        
+    }
+    90% {
+        transform:translateX(0);        
+    }
+    100%{
+        transform:translateX(-100%);
+    }
 }
