@@ -13,7 +13,7 @@
 #headerfiller {top:0;width:100%;z-index:-999;height:25px;background-color:#0C2F48;color:white;font-family: 'Pacifico', cursive;font-size:15px;}
 #headerfiller a {color:red;text-decoration:none;}
 #headerfiller a:hover {text-decoration:underline;}
-#headerfiller h3 { text-align: left;
+#headerfiller p { text-align: left;
  /* Apply animation to this element */	
  -moz-animation: example5 5s linear infinite alternate;
  -webkit-animation: example5 5s linear infinite alternate;
