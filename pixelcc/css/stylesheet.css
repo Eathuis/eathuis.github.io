@@ -62,11 +62,10 @@ h3.forumuse {float:left; position:absolute;}
 #footerinfo a:hover{color:000;}
 
 #tweet {
-	background-color:#0C2F48;
-	color:white;
+	color:black;
 	float:left;
+	width:20px;
 	height: 150px;
-	border-radius:10px;
 	padding:5px;
 }
 
