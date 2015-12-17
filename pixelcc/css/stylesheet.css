@@ -73,6 +73,8 @@ background: -ms-linear-gradient(left,  rgba(0,0,0,0.65) 0%,rgba(0,0,0,0.65) 6%,r
 background: linear-gradient(to right,  rgba(0,0,0,0.65) 0%,rgba(0,0,0,0.65) 6%,rgba(0,0,0,0.73) 93%,rgba(0,0,0,0.73) 97%,rgba(0,0,0,0.73) 100%); /* W3C */
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', endColorstr='#ba000000',GradientType=1 ); /* IE6-8 */}
 #sticky.stick {position: fixed; top: 0; z-index: 10000; height:40px;  box-shadow: 0px 2px 2px #000;}
+#sticky img {filter: alpha(Opacity=50); opacity: 0.5;}
+#sticky img:hover {filter: alpha(Opacity=100); opacity: 1;}
 #menu_text {right:5px;}
 #footer {bottom:0; left:0; width:100%; position:static; background: rgb(69,72,77); /* Old browsers */
 /* IE9 SVG, needs conditional override of 'filter' to 'none' */
