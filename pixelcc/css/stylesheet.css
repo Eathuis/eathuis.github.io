@@ -176,6 +176,7 @@ h3.forumuse {float:left; position:absolute;}
 
 #popup {
     display:none;
+    padding: 5px;
     position:fixed;
     left:50%;        
     top:30%;         
