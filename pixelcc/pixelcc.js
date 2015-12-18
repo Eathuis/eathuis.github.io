@@ -19,7 +19,7 @@ function offline() {
 }
 
 window.onload = function() {
-  document.getElementById("ClickImage").onclick = function(){
+  document.getElementById("LearnMoreBtn").onclick = function(){
         var overlay = document.getElementById("overlay");
         var popup = document.getElementById("popup");
         overlay.style.display = "block";
