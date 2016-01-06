@@ -94,7 +94,7 @@ h3.forumuse {float:left; position:absolute;}
 #footerinfo a:hover{color:000;}
 
 .butt {
-	background-size: 40px;
+	background-size: 40px auto;
 	text-transform:uppercase;
 	font-family: 'Sintony', sans-serif;
 	font-size: large;
@@ -104,4 +104,5 @@ h3.forumuse {float:left; position:absolute;}
 .butt:hover {
 	text-decoration:none;
 	background-color:black;
+	color:white;
 }
