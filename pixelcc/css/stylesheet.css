@@ -114,3 +114,10 @@ h3.forumuse {float:left; position:absolute;}
 	font-size: large;
 	color:white;
 }
+
+#tweet {
+	color:black;
+	float:left;
+	padding:50px;
+	border-radius:10px;
+}
