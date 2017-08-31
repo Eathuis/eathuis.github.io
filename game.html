@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title></title>
+  </head>
+  <body>
+    <script>
+      var words = ["monitor", "program", "application", "keyboard", "javascript", "gaming", "network"];
+
+      var getRandomWord = function () {
+          return words[Math.floor(Math.random() * words.length)];
+      };
+
+      var word = getRandomWord();
+
+      console.log(word);
+
+      document.getElementById("word").textContent = word;
+    </script>
+  </body>
+<html>
