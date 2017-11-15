@@ -1,2 +1,4 @@
-# eathuis.github.io
-Most of the code you see here, with a few exceptions, was written years ago. The constant moving around of said code has left the spacing much to be desired; I'm working hard to resolve this problem. Until such time, you're going to have to deal with it sadly. 
+# jo54.github.io
+**Important things to note**
+*The code was written years ago when I have very little experience with coding/scripting.
+*This is pretty much a dead project, so no frequent additions will be made to this repository.
